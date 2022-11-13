@@ -1,0 +1,431 @@
+ <!-- div main container product  -->
+ <div class="div_main_producto">
+
+    <!-- sale div -->
+    <div class="div_sale_cost">Hasta 85% de descuento</div>
+
+    <!-- div image product -->
+    <div class="div_image_producto">
+        <img src="images/vantilador.jpg" alt="imagen de un ventilador">
+    </div>
+
+    <!-- div detail product -->
+    <div class="div_detalles_producto">
+
+        <!-- span produc category -->
+        <span class="categoria_producto">Ventilador, Mantenimiento de casa</span>
+
+        <!-- what is the producto -->
+        <h4 ><a class="nombre_producto" href="">Ventilador RGB</a></h4>
+
+        <!-- description of the product -->
+        <p class="descipcion">Paquete de ventiladores OCELOT GAMING RGB, 1200rpm, 6pin.
+            Cuenta con un multi contacto para conectar hasta 10 ventiladores y hasta 2 tiras de luces LED.
+        </p>
+        
+        <!-- div product details -->
+        <div class="div_mas_detalles_producto">
+
+            <!-- div price product -->
+            <div class="div_precio">2000 MXN</div>
+
+            <!-- div product actions -->
+            <div class="accines_con_producto">
+
+                <!-- i like it -->
+                <a class="link_accion" href=""><img src="images/me-gusta.png" alt=""></a>
+
+                <!-- add to car shop -->
+                <a class="link_accion" href=""><img src="images/carrito-de-compras.png" alt=""></a>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+</div>
+
+
+ <!-- nav of the menu
+    <nav class="nav_menu">
+
+        <p class="tienda">Electrodomesticos</p>
+
+
+        
+        list container options
+        <ul class="lista_opciones_principales">
+
+            main option
+            <li class="opcion_principal">
+
+                link of the main option
+                <a href="#" class="link_opcion_principal">Mantenimiento de casa</a>
+
+                list of the seconds options
+                <ul class="lista_opciones_secundarias">
+
+                    secondary option
+                    <li class="opcion_secundaria">
+
+                        link of the secund option
+                        <a href="#" class="link_opcion_secundaria">Plancha</a>
+
+                    </li>
+
+                    secondary option
+                    <li class="opcion_secundaria">
+
+                        link of the secund option
+                        <a href="#" class="link_opcion_secundaria">Ventilador</a>
+
+                    </li>
+
+                    secondary option
+                    <li class="opcion_secundaria">
+
+                        link of the secund option
+                        <a href="#" class="link_opcion_secundaria">Aspiradora</a>
+
+                    </li>
+
+                </ul>
+
+            </li>
+
+            main option
+            <li class="opcion_principal">
+
+                link of the main option
+                <a href="#" class="link_opcion_principal">Preparacion de alimentos</a>
+
+                list of the seconds options
+                <ul class="lista_opciones_secundarias">
+
+                    secondary option
+                    <li class="opcion_secundaria">
+
+                        link of the secund option
+                        <a href="#" class="link_opcion_secundaria">Tostadora</a>
+
+                    </li>
+
+                    secondary option
+                    <li class="opcion_secundaria">
+
+                        link of the secund option
+                        <a href="#" class="link_opcion_secundaria">Cafetera</a>
+
+                    </li>
+
+                    secondary option
+                    <li class="opcion_secundaria">
+
+                        link of the secund option
+                        <a href="#" class="link_opcion_secundaria">Licuadora</a>
+
+                    </li>
+
+                </ul>
+
+            </li>
+
+            main option
+            <li class="opcion_principal">
+
+              
+
+                link of the main option
+                <a href="#" class="link_opcion_principal">Higiene y belleza</a>
+
+                list of the seconds options
+                <ul class="lista_opciones_secundarias">
+
+                    secondary option
+                    <li class="opcion_secundaria">
+
+                        link of the secund option
+                        <a href="#" class="link_opcion_secundaria">Secadora</a>
+
+                    </li>
+
+                    secondary option
+                    <li class="opcion_secundaria">
+
+                        link of the secund option
+                        <a href="#" class="link_opcion_secundaria">Maquina para cortar pelo</a>
+
+                    </li>
+
+                    secondary option
+                    <li class="opcion_secundaria">
+
+                        link of the secund option
+                        <a href="#" class="link_opcion_secundaria">Afeitadora</a>
+
+                    </li>
+
+                </ul>
+
+            </li>
+
+
+
+        </ul>
+      
+    </nav> -->
+
+
+
+
+
+
+
+    /* main div produc */
+.div_detalles_producto{
+    position: relative;
+    
+    width: 380px;
+    box-shadow: 0px 2px 7px rgb(255, 255, 255);
+    margin: 50px auto;
+
+    background-color: rgb(165, 165, 165);
+}
+
+/* sale product */
+.div_sale_cost{
+    /* position: absolute; */
+
+    left: 0px;
+    top: 20px;
+    pad: 3px 10px;
+
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+
+    background-color: red;
+    color: snow;
+}
+
+/* div image product */
+.div_image_producto{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 50px;
+
+    background-color: #f0f0f0;
+}
+
+/* image product */
+.div_image_producto img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* product details */
+.div_detalles_producto{
+    padding: 30px;
+}
+
+/* product categori */
+.categoria_producto{
+    display: block;
+
+    margin-bottom: 18px;
+
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    color: rgb(255, 255, 255);
+}
+
+/* name of product */
+.nombre_producto{
+    display: block;
+
+    margin-bottom: 18px;
+
+    font-weight: 500;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+/* hover product details */
+.div_detalles_producto .nombre_producto:hover{
+    color: red;
+}
+
+/* description of the product */
+.div_detalles_producto .descipcion{
+    margin-bottom: 18px;
+    line-height: 22px;
+
+    font-size: 15px;
+
+    color: rgb(255, 255, 255);
+
+}
+
+/* more details product */
+.div_mas_detalles_producto{
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    overflow: hidden;
+}
+
+/* div details right */
+.div_mas_detalles_producto div{
+    width: 50%;
+    float: left;
+}
+
+/* product price */
+.div_precio{
+    font-size: 18px;
+    font-weight: 600;
+
+    color: red;
+}
+
+/* product links */
+.accines_con_producto{
+    text-align: right;
+}
+
+.accines_con_producto a{
+    display: inline-block;
+
+    margin-left: 5px;
+
+    font-size: 17px;
+
+    color: #e1e1e1;
+
+    transition: 0.3s;
+}
+
+.accines_con_producto .link_accion:hover{
+    color: red;
+}
+
+/* title comerce */
+.nav_menu .tienda{
+    float: left;
+
+    width: auto;
+    margin-left: auto;
+    margin-right: 20%;
+    margin-top: 20px;
+    
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    color: rgb(0, 140, 255);
+}
+
+/* div menu styles */
+.nav_menu{
+    position: fixed;
+    
+    width: 100%;
+    height: 80px;
+
+    background-color: aliceblue;
+}
+
+
+
+/* list styles */
+.nav_menu .lista_opciones_principales{
+    margin-top: 20px;
+    list-style: none;
+}
+
+/* menu options styles */
+.nav_menu .lista_opciones_principales .opcion_principal{
+    position: relative;
+
+    display: inline-block;
+    
+    line-height: 20px;
+}
+
+/* options menu */
+.nav_menu .lista_opciones_principales .opcion_principal .link_opcion_principal{
+    display: block;
+
+    border-radius: 3px;
+
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    color: snow;
+    background-color: rgb(0, 132, 255);
+}
+
+/* hover option menu  */
+.nav_menu .lista_opciones_principales .opcion_principal:hover .link_opcion_principal{
+    background-color: rgb(73, 163, 73);
+}
+
+/* hide second list options */
+.lista_opciones_secundarias{
+    display: none;
+}
+
+/* hover main option  */
+.opcion_principal:hover .lista_opciones_secundarias{
+    display: block;
+}
+
+
+
+/* second list options */   
+.lista_opciones_secundarias{
+
+    position: absolute;
+}
+
+/* all list second options */
+.lista_opciones_secundarias .opcion_secundaria .link_opcion_secundaria{
+    display: block;
+
+    padding: 15px;
+    border: 1px solid black;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(223, 153, 245);
+
+}
+
+.opcion_secundaria{
+    list-style: none;
+}
+
+.opcion_secundaria:hover .link_opcion_secundaria{
+    background-color: chocolate;
+    color: aliceblue;
+}
